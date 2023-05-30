@@ -2,6 +2,8 @@ import React from "react";
 import fiveStarMockup from "../../assets/fiveStarMockup.png";
 import chatAppMockup from "../../assets/chatAppMockup.png";
 import fiveStarAppProjectReport from "../../assets/project_report.pdf";
+import movixApp from "../../assets/movixMochup.png";
+import ecommerceMockup from "../../assets/ecommerceMockup.png";
 import { BsDownload } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
 
@@ -111,64 +113,27 @@ const Project = () => {
           </div>
         </div>
 
-        {/* Chat App */}
-        {/* <div className="w-[22rem] p-2 m-2 rounded bg-gray-300 dark:bg-gray-700 text-center">
-          <img src={fiveStarMockup} className="w-full" />
-          <h2 className="text-lg font-bold underline my-1">Review App</h2>
+        {/* Movix App */}
+        <div className="w-96 p-2 m-2 rounded shadow-lg dark:shadow-md dark:shadow-gray-100 bg-gray-300 dark:bg-gray-700 text-center">
+          <img src={movixApp} className="w-full" />
+          <h2 className="text-lg font-bold underline my-1">Movix App</h2>
           <p className="tracking-wide">
-            A Movie and TV-Series review website where user can give ratings and
-            review to the content. It also have an admin panel for admin to add,
-            update or delete content. If you want to run this project then first
-            click on backend starter and then click on live.
+            An app to discover new movies, tv series & web series. This app has
+            a good User interface and design. It uses TMDB Api to fetch its
+            data.
           </p>
           <div className="py-2 flex flex-wrap">
             <a
-              href={fiveStarAppProjectReport}
+              href="https://github.com/ShivamYadav-Coding/MovixApp"
               className="text-gray-100 m-2 hover:text-blue-500 dark:hover:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-200 bg-blue-500 p-2 rounded border-2 border-blue-600"
               target="_blank"
             >
-              Project Report &nbsp;
-              <BsDownload className="inline animate-bounce" />
-            </a>
-
-            <a
-              href="https://github.com/ShivamYadav-Coding/five-start-movie-review-frontend"
-              className="text-gray-100 m-2 hover:text-blue-500 dark:hover:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-200 bg-blue-500 p-2 rounded border-2 border-blue-600"
-              target="_blank"
-            >
-              Code Frontend &nbsp;
+              Code &nbsp;
               <BiLinkExternal className="inline" />
             </a>
 
             <a
-              href="https://github.com/ShivamYadav-Coding/five-start-movie-review-backend"
-              className="text-gray-100 m-2 hover:text-blue-500 dark:hover:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-200 bg-blue-500 p-2 rounded border-2 border-blue-600"
-              target="_blank"
-            >
-              Code Backend &nbsp;
-              <BiLinkExternal className="inline" />
-            </a>
-
-            <a
-              href="https://five-star-review-backend.onrender.com/"
-              className="text-gray-100 m-2 hover:text-blue-500 dark:hover:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-200 bg-blue-500 p-2 rounded border-2 border-blue-600"
-              target="_blank"
-            >
-              Backend Starter &nbsp;
-              <BiLinkExternal className="inline" />
-            </a>
-
-            <a
-              href="https://five-star-review-backend.onrender.com/"
-              className="text-gray-100 m-2 hover:text-blue-500 dark:hover:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-200 bg-blue-500 p-2 rounded border-2 border-blue-600"
-              target="_blank"
-            >
-              Backend Starter &nbsp;
-              <BiLinkExternal className="inline" />
-            </a>
-
-            <a
-              href="https://mrf-8qdb.onrender.com/"
+              href="https://movix-app-tan.vercel.app/"
               className="text-gray-100 m-2 hover:text-blue-500 dark:hover:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-200 bg-blue-500 p-2 rounded border-2 border-blue-600"
               target="_blank"
             >
@@ -176,7 +141,36 @@ const Project = () => {
               <BiLinkExternal className="inline" />
             </a>
           </div>
-        </div> */}
+        </div>
+
+        {/* Ecommerce App */}
+        <div className="w-96 p-2 m-2 rounded shadow-lg dark:shadow-md dark:shadow-gray-100 bg-gray-300 dark:bg-gray-700 text-center">
+          <img src={ecommerceMockup} className="w-full" />
+          <h2 className="text-lg font-bold underline my-1">Ecommerce App</h2>
+          <p className="tracking-wide">
+            It is an Ecommerce App where you could select items and then place
+            order for them. It's payment is handled through Stripe.
+          </p>
+          <div className="py-2 flex flex-wrap">
+            <a
+              href="https://github.com/ShivamYadav-Coding/crwn-store"
+              className="text-gray-100 m-2 hover:text-blue-500 dark:hover:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-200 bg-blue-500 p-2 rounded border-2 border-blue-600"
+              target="_blank"
+            >
+              Code &nbsp;
+              <BiLinkExternal className="inline" />
+            </a>
+
+            <a
+              href="https://beautiful-sunburst-eb1238.netlify.app/"
+              className="text-gray-100 m-2 hover:text-blue-500 dark:hover:text-gray-100 dark:hover:bg-gray-800 hover:bg-gray-200 bg-blue-500 p-2 rounded border-2 border-blue-600"
+              target="_blank"
+            >
+              Live &nbsp;
+              <BiLinkExternal className="inline" />
+            </a>
+          </div>
+        </div>
       </div>
 
       <hr class="h-px mt-8 bg-gray-400 border-0 dark:bg-gray-600"></hr>
